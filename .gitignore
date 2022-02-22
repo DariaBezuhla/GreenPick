@@ -3,3 +3,5 @@ node_modules/
 .idea/
 public/images/uploads/*
 globalConfig.json
+cypress/videos
+cypress/snapshots

@@ -1,7 +1,7 @@
 describe('Log in', () => {
 
   it('shows log in page with full navigation items with view width from 1200px', () => {
-    cy.viewport(1280, 800);
+    cy.viewport(1280, 819);
     cy.visit('/login');
     cy.matchImageSnapshot('login large screen');
   });
