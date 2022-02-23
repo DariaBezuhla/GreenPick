@@ -3,6 +3,16 @@
 Green Pick is the application me and other 3 students have built as part of our web development course at HTW Berlin. GreenPick helps users to provide eco-friendly, sustainable alternatives to everyday products.
 >Check it out at https://wtat1-group-03.herokuapp.com/
 
+# APIs 
+
+GreenPick has several Application Programming Interfaces as well which return various data. 
+
+- `/api/category/:categoryName`  - will return all 'greenPicks" under certain category 
+- `/api/categories` - will return all exsisting categories 
+- `/api/user/favourites` - will return any favourite apps of the users, if the user is authorised 
+- `/api/user/apps` - will return all the applications that user had added, if the user is logged in 
+
+
 # Features
 
 ## 1.Search on the main page 
@@ -40,14 +50,5 @@ Logged-in users have follwoing functionality:
 - In the business page there is general inforamtion about the service/application they provide, their website, and possibility to add this service to favourites 
 
 ![Screenshot 2022-02-23 at 22 01 05](https://user-images.githubusercontent.com/33038445/155407690-62f9a54a-f9c3-4a50-9f4b-b9a28dc3e785.png)
-
-# APIs 
-
-GreenPick has several Application Programming Interfaces as well which return various data. 
-
-- `/api/category/:categoryName`  - will return all 'greenPicks" under certain category 
-- `/api/categories` - will return all exsisting categories 
-- `/api/user/favourites` - will return any favourite apps of the users, if the user is authorised 
-- `/api/user/apps` - will return all the applications that user had added, if the user is logged in 
 
 
